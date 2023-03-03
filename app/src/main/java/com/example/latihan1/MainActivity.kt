@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.latihan1.databinding.ActivityMainBinding
-import com.example.latihan1.responses.PostResponse
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,6 +16,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         btnToLogin()
         setupListener()
+        btnToPosts()
+    }
+
+    private fun btnToPosts() {
+        binding.btnPosts.setOnClickListener {
+            startActivity(Intent(this, PostsActivity::class.java))
+        }
     }
 
     private fun btnToLogin() {

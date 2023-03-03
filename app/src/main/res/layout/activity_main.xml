@@ -95,5 +95,16 @@
             android:text="PEREMPUAN"
             />
     </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="See All Posts"
+        android:backgroundTint="@color/black"
+        android:id="@+id/btn_posts"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

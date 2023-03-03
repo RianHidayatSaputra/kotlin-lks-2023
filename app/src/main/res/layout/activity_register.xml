@@ -50,29 +50,6 @@
             android:padding="20dp"
             >
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
-                >
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/cardview_dark_background"
-                    android:layout_marginTop="90dp"
-                    />
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/email"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/cardview_dark_background"
-                    android:layout_marginTop="90dp"
-                    android:inputType=""
-                    android:hint="@string/email"
-
-                    />
-            </com.google.android.material.textfield.TextInputLayout>
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

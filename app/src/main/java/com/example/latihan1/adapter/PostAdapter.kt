@@ -5,11 +5,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.latihan1.R
-import com.example.latihan1.databinding.ItemPostsBinding
+import com.example.latihan1.databinding.ActivityItemsBinding
 import com.example.latihan1.responses.PostResponse
 
 class PostAdapter(private val list: ArrayList<PostResponse>):RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
-    private lateinit var binding: ItemPostsBinding
+    private lateinit var binding: ActivityItemsBinding
     inner class PostViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         fun bind(PostResponse: PostResponse) {
             with(itemView) {
